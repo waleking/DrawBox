@@ -1,0 +1,198 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_CN_FENGZHUANG_HENHAO MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)",                      IDM_NEW
+        MENUITEM "打开(&O)",                      IDM_OPEN
+        MENUITEM "保存(&S)",                      IDM_SAVE
+        MENUITEM "另存为(&A)",                     IDM_SAVEAS
+        MENUITEM "退出(&X)",                      IDM_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "选中(&S)",                      IDM_SELECT
+        MENUITEM "全选(&A)",                      ID_SELECT_ALL
+        MENUITEM "删除(&D)",                      ID_DELETE
+    END
+    POPUP "图形(&G)"
+    BEGIN
+        MENUITEM "直线(&L)",                      IDM_LINE
+        MENUITEM "矩形(&R)",                      IDR_RECTANGLE
+        MENUITEM "椭圆(&E)",                      IDM_ELLIPSE
+        MENUITEM "多边形(&P)",                     IDM_POLYGON
+    END
+    POPUP "设置(S)"
+    BEGIN
+        POPUP "线宽(&W)"
+        BEGIN
+            MENUITEM "1",                           ID_LINE1
+            MENUITEM "2",                           ID_LINE2
+            MENUITEM "3",                           ID_LINE3
+            MENUITEM "4",                           ID_LINE4
+            MENUITEM "5",                           ID_LINE5
+        END
+        POPUP "线型(&T)"
+        BEGIN
+            MENUITEM "实线",                          ID_PS_SOLID
+            MENUITEM "虚线",                          ID_PS_DASH
+            MENUITEM "DOT",                         ID_PS_DOT
+            MENUITEM "点划线",                         ID_PS_DASHDOT
+            MENUITEM "DASHDOTDOT",                  ID_PS_DASHDOTDOT
+        END
+        POPUP "填充(&F)"
+        BEGIN
+            MENUITEM "无填充",                         ID_FILL_NULL
+            MENUITEM "斜方格填充",                       ID_FILL_HATCH
+        END
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "放大",                          ID_ZOOMIN
+        MENUITEM "缩小",                          ID_ZOOMOUT
+        MENUITEM "原尺寸",                         ID_ZOOMORIG
+    END
+    POPUP "颜色(&C)"
+    BEGIN
+        MENUITEM "选择颜色(&S)",                    IDM_SELECTCOLOR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)",                      IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 30, 30, 186, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "版本信息"
+FONT 10, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,67,56,50,14
+    LTEXT           "画图板(gamma) 版本号：V1.2",IDC_STATIC,67,11,100,18
+    LTEXT           "同济大学 软件学院",IDC_STATIC,67,36,101,12
+    CONTROL         104,ID_BM,"Static",SS_BITMAP,14,12,43,40
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 185
+        BOTTOMMARGIN, 73
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_CN_FENGZHUANG_HENHAO ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+IDI_ICONSMALL           ICON                    "Paint.ico"
+IDI_ICON2               ICON                    "icon2.ico"
+IDI_ICON3               ICON                    "icon3.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
